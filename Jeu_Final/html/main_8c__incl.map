@@ -1,0 +1,24 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="node2" href="$main_8h_source.html" title="main.h" alt="" coords="801,80,863,107"/>
+<area shape="rect" id="node12" href="$background_8h_source.html" title="lot3/background.h" alt="" coords="992,155,1117,181"/>
+<area shape="rect" id="node15" href="$minimap_8h_source.html" title="lot4/minimap.h" alt="" coords="1141,155,1248,181"/>
+<area shape="rect" id="node18" href="$perso_8h_source.html" title="lot1/perso.h" alt="" coords="1272,155,1363,181"/>
+<area shape="rect" id="node21" href="$enemy_8h_source.html" title="lot2/enemy.h" alt="" coords="1387,155,1485,181"/>
+<area shape="rect" id="node24" href="$enigme_8h_source.html" title="lot5/enigme.h" alt="" coords="1509,155,1609,181"/>
+<area shape="rect" id="node27" href="$enigmealeatoire_8h_source.html" title="lot6/enigmealeatoire.h" alt="" coords="1632,155,1781,181"/>
+<area shape="rect" id="node30" href="$save_8h_source.html" title="lot7/save.h" alt="" coords="1806,155,1893,181"/>
+<area shape="rect" id="node13" href="$background_8c.html" title="background.c" alt="" coords="1005,229,1105,256"/>
+<area shape="rect" id="node14" href="$lot3_2type_8h_source.html" title="type.h" alt="" coords="1025,304,1084,331"/>
+<area shape="rect" id="node16" href="$minimap_8c.html" title="minimap.c" alt="" coords="1153,229,1236,256"/>
+<area shape="rect" id="node17" href="$lot4_2type_8h_source.html" title="type.h" alt="" coords="1165,304,1224,331"/>
+<area shape="rect" id="node19" href="$perso_8c.html" title="perso.c" alt="" coords="1285,229,1350,256"/>
+<area shape="rect" id="node20" href="$lot1_2type_8h_source.html" title="type.h" alt="" coords="1288,304,1347,331"/>
+<area shape="rect" id="node22" href="$enemy_8c.html" title="enemy.c" alt="" coords="1400,229,1472,256"/>
+<area shape="rect" id="node23" href="$lot2_2type_8h_source.html" title="type.h" alt="" coords="1407,304,1465,331"/>
+<area shape="rect" id="node25" href="$enigme_8c.html" title="enigme.c" alt="" coords="1521,229,1596,256"/>
+<area shape="rect" id="node26" href="$lot5_2type_8h_source.html" title="type.h" alt="" coords="1529,304,1588,331"/>
+<area shape="rect" id="node28" href="$enigmealeatoire_8c.html" title="enigmealeatoire.c" alt="" coords="1645,229,1769,256"/>
+<area shape="rect" id="node29" href="$lot6_2type_8h_source.html" title="type.h" alt="" coords="1677,304,1736,331"/>
+<area shape="rect" id="node31" href="$save_8c.html" title="save.c" alt="" coords="1819,229,1880,256"/>
+<area shape="rect" id="node32" href="$lot7_2type_8h_source.html" title="type.h" alt="" coords="1820,304,1879,331"/>
+</map>

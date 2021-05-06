@@ -1,0 +1,2 @@
+gcc main.c -o main -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer && ./main;
+

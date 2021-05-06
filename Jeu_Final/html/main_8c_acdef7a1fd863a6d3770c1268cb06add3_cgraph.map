@@ -1,0 +1,20 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$minimap_8c.html#a2bbd14a997f1fa7fd246f24ead3b50f8" title="To initialize the texttime. " alt="" coords="166,5,241,32"/>
+<area shape="rect" id="node5" href="$enemy_8c.html#a8ba1f6f3085095b5d01a4c52d30797c7" title="To initialize Enemy . " alt="" coords="163,56,243,83"/>
+<area shape="rect" id="node6" href="$minimap_8c.html#a74ec4a47290d0f4cb6091de5aa33e0fa" title="To initialize The minimap . " alt="" coords="168,107,239,133"/>
+<area shape="rect" id="node7" href="$enigme_8c.html#adf5359e458145728c485621cdc63b620" title="To initialize Enigme . " alt="" coords="170,157,237,184"/>
+<area shape="rect" id="node11" href="$enemy_8c.html#ab812bb33b0347491dc004a6b06f9fc1f" title="Deplacement Aleatoire . " alt="" coords="104,208,303,235"/>
+<area shape="rect" id="node12" href="$enemy_8c.html#a02d7b7a6b7bffad0194e3561b2d938ba" title="Deplacement AI . " alt="" coords="133,259,273,285"/>
+<area shape="rect" id="node13" href="$enemy_8c.html#ab9ae1cc50f19979fc2df6ee70d9626b7" title="Enemy Attack . " alt="" coords="153,309,254,336"/>
+<area shape="rect" id="node14" href="$enemy_8c.html#a25b0e4dacc545828c42455fec6260818" title="Perso Hurt . " alt="" coords="165,360,241,387"/>
+<area shape="rect" id="node15" href="$enemy_8c.html#a606fc9e18511013d83732b4f8b5b6fce" title="Enemy Death . " alt="" coords="154,411,253,437"/>
+<area shape="rect" id="node16" href="$minimap_8c.html#abc558b87e2e48a9f354536407ee6abbd" title="update_time " alt="" coords="157,461,250,488"/>
+<area shape="rect" id="node17" href="$minimap_8c.html#a71c8c908c2ec624cd28536ebf0919f19" title="Blit the Minimap . " alt="" coords="150,512,257,539"/>
+<area shape="rect" id="node18" href="$minimap_8c.html#aeaf577c70c6195dd63b6424c46025020" title="displaytime " alt="" coords="159,563,247,589"/>
+<area shape="rect" id="node19" href="$minimap_8c.html#a1aea230c66513887e2a8dba8b3d2d075" title="freeTexttime " alt="" coords="156,613,251,640"/>
+<area shape="rect" id="node3" href="$minimap_8c.html#ae326325c6cbb8e991873fc3da6a8265e" title="To initialize the time . " alt="" coords="351,5,441,32"/>
+<area shape="rect" id="node4" href="$minimap_8c.html#adbaf68f859776c327cf59e5f78f25627" title="loadFonttime " alt="" coords="489,5,587,32"/>
+<area shape="rect" id="node8" href="$enigme_8c.html#ad0c551a5e3c3dd1cf60f35fef5a31e32" title="Blit Enigme . " alt="" coords="364,132,428,159"/>
+<area shape="rect" id="node9" href="$enigme_8c.html#a72498611e7543eea612c9ff46eb1ce01" title="Answers . " alt="" coords="362,183,430,209"/>
+<area shape="rect" id="node10" href="$enigme_8c.html#a859263f14512437b6ccdfb54535a6875" title="Correct Answers . " alt="" coords="507,183,569,209"/>
+</map>

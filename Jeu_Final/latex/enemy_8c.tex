@@ -1,0 +1,216 @@
+\hypertarget{enemy_8c}{}\section{enemy.\+c File Reference}
+\label{enemy_8c}\index{enemy.\+c@{enemy.\+c}}
+{\ttfamily \#include \char`\"{}type.\+h\char`\"{}}\\*
+Include dependency graph for enemy.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{enemy_8c__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{enemy_8c__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{enemy_8c_a8ba1f6f3085095b5d01a4c52d30797c7}{init\+Enemy} (\hyperlink{structenemy}{enemy} $\ast$e)
+\begin{DoxyCompactList}\small\item\em To initialize Enemy . \end{DoxyCompactList}\item 
+void \hyperlink{enemy_8c_a02d7b7a6b7bffad0194e3561b2d938ba}{Deplacement\+Enemy} (\hyperlink{structenemy}{enemy} $\ast$e, \hyperlink{structPersonne}{Personne} p, int $\ast$colone2, int $\ast$ligne2)
+\begin{DoxyCompactList}\small\item\em Deplacement AI . \end{DoxyCompactList}\item 
+void \hyperlink{enemy_8c_ab9ae1cc50f19979fc2df6ee70d9626b7}{Enemy\+Attack} (\hyperlink{structenemy}{enemy} e, \hyperlink{structPersonne}{Personne} p, int $\ast$colone2, int $\ast$ligne2, int $\ast$S\+T\+OP, int $\ast$Hurt)
+\begin{DoxyCompactList}\small\item\em Enemy Attack . \end{DoxyCompactList}\item 
+void \hyperlink{enemy_8c_a25b0e4dacc545828c42455fec6260818}{hurtperso} (int $\ast$ligne, int $\ast$colone, int $\ast$hurt)
+\begin{DoxyCompactList}\small\item\em Perso Hurt . \end{DoxyCompactList}\item 
+void \hyperlink{enemy_8c_a606fc9e18511013d83732b4f8b5b6fce}{Enemy\+Death} (\hyperlink{structenemy}{enemy} e, \hyperlink{structPersonne}{Personne} p, int $\ast$Blit\+Enemy, int ligne)
+\begin{DoxyCompactList}\small\item\em Enemy Death . \end{DoxyCompactList}\item 
+void \hyperlink{enemy_8c_ab812bb33b0347491dc004a6b06f9fc1f}{deplacement\+\_\+enemy\+\_\+aleatoire} (\hyperlink{structenemy}{enemy} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Deplacement Aleatoire . \end{DoxyCompactList}\item 
+void {\bfseries Enemy\+Death2} (\hyperlink{structPersonne}{Personne} p1, \hyperlink{structenemy}{enemy} e1, int $\ast$Blit\+Enemy1, int ligne1)\hypertarget{enemy_8c_aae0c2e281bdb77213615af25387a0062}{}\label{enemy_8c_aae0c2e281bdb77213615af25387a0062}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{enemy.\+c@{enemy.\+c}!deplacement\+\_\+enemy\+\_\+aleatoire@{deplacement\+\_\+enemy\+\_\+aleatoire}}
+\index{deplacement\+\_\+enemy\+\_\+aleatoire@{deplacement\+\_\+enemy\+\_\+aleatoire}!enemy.\+c@{enemy.\+c}}
+\subsubsection[{\texorpdfstring{deplacement\+\_\+enemy\+\_\+aleatoire(enemy $\ast$e)}{deplacement_enemy_aleatoire(enemy *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void deplacement\+\_\+enemy\+\_\+aleatoire (
+\begin{DoxyParamCaption}
+\item[{{\bf enemy} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{enemy_8c_ab812bb33b0347491dc004a6b06f9fc1f}{}\label{enemy_8c_ab812bb33b0347491dc004a6b06f9fc1f}
+
+
+Deplacement Aleatoire . 
+
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{enemy_8c_ab812bb33b0347491dc004a6b06f9fc1f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{enemy.\+c@{enemy.\+c}!Deplacement\+Enemy@{Deplacement\+Enemy}}
+\index{Deplacement\+Enemy@{Deplacement\+Enemy}!enemy.\+c@{enemy.\+c}}
+\subsubsection[{\texorpdfstring{Deplacement\+Enemy(enemy $\ast$e, Personne p, int $\ast$colone2, int $\ast$ligne2)}{DeplacementEnemy(enemy *e, Personne p, int *colone2, int *ligne2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Deplacement\+Enemy (
+\begin{DoxyParamCaption}
+\item[{{\bf enemy} $\ast$}]{e, }
+\item[{{\bf Personne}}]{p, }
+\item[{int $\ast$}]{colone2, }
+\item[{int $\ast$}]{ligne2}
+\end{DoxyParamCaption}
+)}\hypertarget{enemy_8c_a02d7b7a6b7bffad0194e3561b2d938ba}{}\label{enemy_8c_a02d7b7a6b7bffad0194e3561b2d938ba}
+
+
+Deplacement AI . 
+
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{enemy_8c_a02d7b7a6b7bffad0194e3561b2d938ba_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{enemy.\+c@{enemy.\+c}!Enemy\+Attack@{Enemy\+Attack}}
+\index{Enemy\+Attack@{Enemy\+Attack}!enemy.\+c@{enemy.\+c}}
+\subsubsection[{\texorpdfstring{Enemy\+Attack(enemy e, Personne p, int $\ast$colone2, int $\ast$ligne2, int $\ast$\+S\+T\+O\+P, int $\ast$\+Hurt)}{EnemyAttack(enemy e, Personne p, int *colone2, int *ligne2, int *STOP, int *Hurt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy\+Attack (
+\begin{DoxyParamCaption}
+\item[{{\bf enemy}}]{e, }
+\item[{{\bf Personne}}]{p, }
+\item[{int $\ast$}]{colone2, }
+\item[{int $\ast$}]{ligne2, }
+\item[{int $\ast$}]{S\+T\+OP, }
+\item[{int $\ast$}]{Hurt}
+\end{DoxyParamCaption}
+)}\hypertarget{enemy_8c_ab9ae1cc50f19979fc2df6ee70d9626b7}{}\label{enemy_8c_ab9ae1cc50f19979fc2df6ee70d9626b7}
+
+
+Enemy Attack . 
+
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{enemy_8c_ab9ae1cc50f19979fc2df6ee70d9626b7_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{enemy.\+c@{enemy.\+c}!Enemy\+Death@{Enemy\+Death}}
+\index{Enemy\+Death@{Enemy\+Death}!enemy.\+c@{enemy.\+c}}
+\subsubsection[{\texorpdfstring{Enemy\+Death(enemy e, Personne p, int $\ast$\+Blit\+Enemy, int ligne)}{EnemyDeath(enemy e, Personne p, int *BlitEnemy, int ligne)}}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy\+Death (
+\begin{DoxyParamCaption}
+\item[{{\bf enemy}}]{e, }
+\item[{{\bf Personne}}]{p, }
+\item[{int $\ast$}]{Blit\+Enemy, }
+\item[{int}]{ligne}
+\end{DoxyParamCaption}
+)}\hypertarget{enemy_8c_a606fc9e18511013d83732b4f8b5b6fce}{}\label{enemy_8c_a606fc9e18511013d83732b4f8b5b6fce}
+
+
+Enemy Death . 
+
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{enemy_8c_a606fc9e18511013d83732b4f8b5b6fce_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{enemy.\+c@{enemy.\+c}!hurtperso@{hurtperso}}
+\index{hurtperso@{hurtperso}!enemy.\+c@{enemy.\+c}}
+\subsubsection[{\texorpdfstring{hurtperso(int $\ast$ligne, int $\ast$colone, int $\ast$hurt)}{hurtperso(int *ligne, int *colone, int *hurt)}}]{\setlength{\rightskip}{0pt plus 5cm}void hurtperso (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{ligne, }
+\item[{int $\ast$}]{colone, }
+\item[{int $\ast$}]{hurt}
+\end{DoxyParamCaption}
+)}\hypertarget{enemy_8c_a25b0e4dacc545828c42455fec6260818}{}\label{enemy_8c_a25b0e4dacc545828c42455fec6260818}
+
+
+Perso Hurt . 
+
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{enemy_8c_a25b0e4dacc545828c42455fec6260818_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{enemy.\+c@{enemy.\+c}!init\+Enemy@{init\+Enemy}}
+\index{init\+Enemy@{init\+Enemy}!enemy.\+c@{enemy.\+c}}
+\subsubsection[{\texorpdfstring{init\+Enemy(enemy $\ast$e)}{initEnemy(enemy *e)}}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Enemy (
+\begin{DoxyParamCaption}
+\item[{{\bf enemy} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{enemy_8c_a8ba1f6f3085095b5d01a4c52d30797c7}{}\label{enemy_8c_a8ba1f6f3085095b5d01a4c52d30797c7}
+
+
+To initialize Enemy . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the enemy \\
+\hline
+{\em url} & the url of the image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{enemy_8c_a8ba1f6f3085095b5d01a4c52d30797c7_icgraph}
+\end{center}
+\end{figure}
+
+

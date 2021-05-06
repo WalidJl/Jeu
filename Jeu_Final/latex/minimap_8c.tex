@@ -1,0 +1,320 @@
+\hypertarget{minimap_8c}{}\section{minimap.\+c File Reference}
+\label{minimap_8c}\index{minimap.\+c@{minimap.\+c}}
+{\ttfamily \#include \char`\"{}type.\+h\char`\"{}}\\*
+Include dependency graph for minimap.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{minimap_8c__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{minimap_8c__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{minimap_8c_a74ec4a47290d0f4cb6091de5aa33e0fa}{init\+\_\+map} (\hyperlink{structminimap}{minimap} $\ast$m)
+\begin{DoxyCompactList}\small\item\em To initialize The minimap . \end{DoxyCompactList}\item 
+void \hyperlink{minimap_8c_a71c8c908c2ec624cd28536ebf0919f19}{affichage\+\_\+map} (\hyperlink{structminimap}{minimap} m, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em Blit the Minimap . \end{DoxyCompactList}\item 
+void {\bfseries Timer} (int $\ast$tempsdebut)\hypertarget{minimap_8c_a5929c26a66049460dc58b8c92a6d0b2f}{}\label{minimap_8c_a5929c26a66049460dc58b8c92a6d0b2f}
+
+\item 
+int \hyperlink{minimap_8c_adbaf68f859776c327cf59e5f78f25627}{load\+Fonttime} (\hyperlink{structtext}{Text} $\ast$T, char $\ast$ch)
+\begin{DoxyCompactList}\small\item\em load\+Fonttime \end{DoxyCompactList}\item 
+int \hyperlink{minimap_8c_ae326325c6cbb8e991873fc3da6a8265e}{init\+Texttime} (\hyperlink{structtext}{Text} $\ast$T)
+\begin{DoxyCompactList}\small\item\em To initialize the time . \end{DoxyCompactList}\item 
+void \hyperlink{minimap_8c_a2bbd14a997f1fa7fd246f24ead3b50f8}{inittemps} (\hyperlink{structtime}{Time} $\ast$t)
+\begin{DoxyCompactList}\small\item\em To initialize the texttime. \end{DoxyCompactList}\item 
+void \hyperlink{minimap_8c_abc558b87e2e48a9f354536407ee6abbd}{update\+\_\+time} (\hyperlink{structtime}{Time} $\ast$T)
+\begin{DoxyCompactList}\small\item\em update\+\_\+time \end{DoxyCompactList}\item 
+void \hyperlink{minimap_8c_aeaf577c70c6195dd63b6424c46025020}{displaytime} (\hyperlink{structtime}{Time} T, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em displaytime \end{DoxyCompactList}\item 
+void \hyperlink{minimap_8c_a1aea230c66513887e2a8dba8b3d2d075}{free\+Texttime} (\hyperlink{structtext}{Text} T)
+\begin{DoxyCompactList}\small\item\em free\+Texttime \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{minimap.\+c@{minimap.\+c}!affichage\+\_\+map@{affichage\+\_\+map}}
+\index{affichage\+\_\+map@{affichage\+\_\+map}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{affichage\+\_\+map(minimap m, S\+D\+L\+\_\+\+Surface $\ast$screen)}{affichage_map(minimap m, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void affichage\+\_\+map (
+\begin{DoxyParamCaption}
+\item[{{\bf minimap}}]{m, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_a71c8c908c2ec624cd28536ebf0919f19}{}\label{minimap_8c_a71c8c908c2ec624cd28536ebf0919f19}
+
+
+Blit the Minimap . 
+
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{minimap_8c_a71c8c908c2ec624cd28536ebf0919f19_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!displaytime@{displaytime}}
+\index{displaytime@{displaytime}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{displaytime(\+Time T, S\+D\+L\+\_\+\+Surface $\ast$screen)}{displaytime(Time T, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void displaytime (
+\begin{DoxyParamCaption}
+\item[{{\bf Time}}]{T, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_aeaf577c70c6195dd63b6424c46025020}{}\label{minimap_8c_aeaf577c70c6195dd63b6424c46025020}
+
+
+displaytime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the Time \\
+\hline
+{\em screen} & the url surface \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{minimap_8c_aeaf577c70c6195dd63b6424c46025020_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!free\+Texttime@{free\+Texttime}}
+\index{free\+Texttime@{free\+Texttime}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{free\+Texttime(\+Text T)}{freeTexttime(Text T)}}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Texttime (
+\begin{DoxyParamCaption}
+\item[{{\bf Text}}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_a1aea230c66513887e2a8dba8b3d2d075}{}\label{minimap_8c_a1aea230c66513887e2a8dba8b3d2d075}
+
+
+free\+Texttime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{minimap_8c_a1aea230c66513887e2a8dba8b3d2d075_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!init\+\_\+map@{init\+\_\+map}}
+\index{init\+\_\+map@{init\+\_\+map}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{init\+\_\+map(minimap $\ast$m)}{init_map(minimap *m)}}]{\setlength{\rightskip}{0pt plus 5cm}void init\+\_\+map (
+\begin{DoxyParamCaption}
+\item[{{\bf minimap} $\ast$}]{m}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_a74ec4a47290d0f4cb6091de5aa33e0fa}{}\label{minimap_8c_a74ec4a47290d0f4cb6091de5aa33e0fa}
+
+
+To initialize The minimap . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & the minimap \\
+\hline
+{\em url} & the url of the image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{minimap_8c_a74ec4a47290d0f4cb6091de5aa33e0fa_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!inittemps@{inittemps}}
+\index{inittemps@{inittemps}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{inittemps(\+Time $\ast$t)}{inittemps(Time *t)}}]{\setlength{\rightskip}{0pt plus 5cm}void inittemps (
+\begin{DoxyParamCaption}
+\item[{{\bf Time} $\ast$}]{t}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_a2bbd14a997f1fa7fd246f24ead3b50f8}{}\label{minimap_8c_a2bbd14a997f1fa7fd246f24ead3b50f8}
+
+
+To initialize the texttime. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{minimap_8c_a2bbd14a997f1fa7fd246f24ead3b50f8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{minimap_8c_a2bbd14a997f1fa7fd246f24ead3b50f8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!init\+Texttime@{init\+Texttime}}
+\index{init\+Texttime@{init\+Texttime}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{init\+Texttime(\+Text $\ast$\+T)}{initTexttime(Text *T)}}]{\setlength{\rightskip}{0pt plus 5cm}int init\+Texttime (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_ae326325c6cbb8e991873fc3da6a8265e}{}\label{minimap_8c_ae326325c6cbb8e991873fc3da6a8265e}
+
+
+To initialize the time . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & the Time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{minimap_8c_ae326325c6cbb8e991873fc3da6a8265e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{minimap_8c_ae326325c6cbb8e991873fc3da6a8265e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!load\+Fonttime@{load\+Fonttime}}
+\index{load\+Fonttime@{load\+Fonttime}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{load\+Fonttime(\+Text $\ast$\+T, char $\ast$ch)}{loadFonttime(Text *T, char *ch)}}]{\setlength{\rightskip}{0pt plus 5cm}int load\+Fonttime (
+\begin{DoxyParamCaption}
+\item[{{\bf Text} $\ast$}]{T, }
+\item[{char $\ast$}]{ch}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_adbaf68f859776c327cf59e5f78f25627}{}\label{minimap_8c_adbaf68f859776c327cf59e5f78f25627}
+
+
+load\+Fonttime 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the text \\
+\hline
+{\em ch} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{minimap_8c_adbaf68f859776c327cf59e5f78f25627_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{minimap.\+c@{minimap.\+c}!update\+\_\+time@{update\+\_\+time}}
+\index{update\+\_\+time@{update\+\_\+time}!minimap.\+c@{minimap.\+c}}
+\subsubsection[{\texorpdfstring{update\+\_\+time(\+Time $\ast$\+T)}{update_time(Time *T)}}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+time (
+\begin{DoxyParamCaption}
+\item[{{\bf Time} $\ast$}]{T}
+\end{DoxyParamCaption}
+)}\hypertarget{minimap_8c_abc558b87e2e48a9f354536407ee6abbd}{}\label{minimap_8c_abc558b87e2e48a9f354536407ee6abbd}
+
+
+update\+\_\+time 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & the Time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{minimap_8c_abc558b87e2e48a9f354536407ee6abbd_icgraph}
+\end{center}
+\end{figure}
+
+
